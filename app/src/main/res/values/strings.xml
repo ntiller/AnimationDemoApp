@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimationDemoApp</string>
+    <string name="use_view_animation">Use View Animation</string>
+    <string name="press_text">Press Me!</string>
+</resources>

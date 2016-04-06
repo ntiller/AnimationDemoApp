@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main_relativelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.lclark.animationdemoapp.MainActivity">
+
+
+    <CheckBox
+        android:id="@+id/activity_main_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_view_animation"
+        android:checked="false"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/activity_main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/press_text"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/fingerprint_icon_content_description"
+        android:layout_below="@id/activity_main_button"
+        />
+
+</RelativeLayout>
